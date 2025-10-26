@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-family: Poppins, sans-serif;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+
+.header img{
+	width: 200px;
+	border-radius: 20px;
+	transition: 0.3s ease;
+	padding: 5px;
+}
+
+.header {
+	display: flex;
+	padding: 10px 40px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #840c0e;
+}
+
+.header .header-menu {
+	display: flex;
+	gap: 50px;
+}
+
+.header .header-menu .header-link {
+	color: white;
+	font-size: 18px;
+	transition: 0.3s ease;
+}
+
+.header .header-menu .header-link:hover {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 50px;
+	padding: 10px;
+}
+
+footer {
+  background-color: #840c0e;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+.discount-page {
+  background-color: #fff4ef; 
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.discount-page h2 {
+  color: #840c0e;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.discount-page p {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #840c0e;
+}
+
+.discount-card {
+  background-color: #ffffff;
+  border: 2px solid #dcbfa6;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.discount-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.discount-card h3 {
+  color: #6b3e26;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.discount-card p {
+  margin: 0;
+  color: #3e2a22;
+  text-align: center;
+}
+
+.claim-btn {
+  display: block;
+  width: fit-content;
+  background-color: #840c0e;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin: 15px auto 0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.claim-btn:hover {
+  background-color: #8b5133;
+}
+
+

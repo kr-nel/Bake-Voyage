@@ -1,0 +1,111 @@
+@import 
+ url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Poppins:wght@400;500;600&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f2;
+  color: #7B0000;
+}
+
+header {
+  background-color: #7B0000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 75;
+  border-radius: 50px;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #a56969;
+}
+
+nav a.active {
+  border-bottom: 2px solid white;
+}
+
+main {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+h1 {
+  color: #a0522d;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #5a3d2b;
+}
+
+
+.order-form {
+  max-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #a569;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.order-form label {
+  font-weight: bold;
+  color: #5a3d2b;
+  text-align: left;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.order-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.order-form button {
+  background-color: #6b3e26;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.order-form button:hover {
+  background-color: #a0522d;
+}

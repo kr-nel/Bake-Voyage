@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Now | Bake Voyage</title>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Poppins:wght@400;500;600&display=swap"rel="stylesheet">
+  <link rel="stylesheet" href="../css/order.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../images/Artboard 2.png" alt="Bake Voyage Logo">
+    </div>
+    <nav>
+      
+      <a href="order.html" class="active">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Place Your Order</h1>
+    <p>Craving something sweet? Fill out the form below and we’ll prepare your treats! 🍪</p>
+    <form action = "https://formspree.io/f/xjkpbeqd" method = "POST"
+     class="order-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="product">Select Product:</label>
+      <select id="product" name="product">
+        <option value="banana-bread">Banana Bread Loaf</option>
+        <option value="banana-muffins">Banana Muffins</option>
+        <option value="cookies">Cookies</option>
+        <option value="brownies">Brownies</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" placeholder="1" required>
+
+      <label for="notes">Additional Notes:</label>
+      <textarea id="notes" name="notes" placeholder="Add any special requests..."></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </main>
+</body>
+</html>

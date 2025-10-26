@@ -1,0 +1,113 @@
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-family: Poppins, sans-serif;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+
+img {
+	width: 200px;
+	border-radius: 20px;
+	transition: 0.3s ease;
+	padding: 5px;
+}
+
+img:hover {
+	opacity: 0.6;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Header style */
+.header {
+	display: flex;
+	padding: 10px 40px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #840c0e;
+}
+
+.header .header-menu {
+	display: flex;
+	gap: 50px;
+}
+
+.header .header-menu .header-link {
+	color: white;
+	font-size: 18px;
+	transition: 0.3s ease;
+}
+
+.header .header-menu .header-link:hover {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 50px;
+	padding: 10px;
+}
+
+/* Main content */
+.quote {
+	width: 100%;
+	text-align: center;
+	font-family: thocant;
+	color: black;
+	margin: -50px;
+	display: block;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin-top: 150px;
+	transform: scale(1.4);
+	text-align: left;
+}
+
+.social1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	text-align: center;
+}
+
+.social2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	text-align: center;
+	
+}
+
+.social1 img{
+	width: 50px;
+	height: auto;
+}
+
+.social2 img{
+	width: 55px;
+	height: auto;
+}
+
+.product-label {
+	font-family: Poppins, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #840c0e;
+	margin: 0;
+}
